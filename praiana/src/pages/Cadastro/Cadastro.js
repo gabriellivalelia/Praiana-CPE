@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Cadastro()
+function CadastroTeste()
 {
-    return <hi>Cadastro</hi>
+    return (<hi>Cadastro</hi>);
 }
 
-export default Cadastro;
+export default CadastroTeste;
