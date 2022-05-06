@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 
 
 function App() {
+<<<<<<< HEAD
   return(
   ( <div>
       <h1> Incrivel</h1>
@@ -14,5 +15,13 @@ function App() {
   </div>
   )) 
 };
+=======
+  return (
+    <div>
+      <h1>Teste Bernardo GIT KRAKEN</h1>
+    </div>
+  );
+}
+>>>>>>> main
 
 export default App;
