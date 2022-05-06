@@ -1,8 +1,10 @@
 import React from 'react';
 
-function CadastroTeste()
+function Cadastro()
 {
-    return (<hi>Cadastro</hi>);
+    return (
+    <div><hi>Cadastro</hi></div>
+    );
 }
 
-export default CadastroTeste;
+export default Cadastro;
