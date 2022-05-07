@@ -1,10 +1,12 @@
 import React from 'react';
+import "./Cadastro.css";
+import Header from '../../Components/Header/header';
 
 function Cadastro()
-{
-    return (
-    <div><hi>Cadastro</hi></div>
-    );
+{   
+   return(
+       <Header/>
+   )
 }
 
 export default Cadastro;

@@ -1,0 +1,17 @@
+.container 
+{
+      display: flex; 
+      flex-direction: row;
+      max-width: 2386px;
+      justify-content: space-around;
+}
+
+.botao
+{
+    display: flex;
+    justify-items: end;
+}
+
+.navbar-brand > img {
+    width: 80px;
+}
