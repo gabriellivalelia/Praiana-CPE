@@ -1,0 +1,14 @@
+.navbar {
+  background: none;
+}
+.navbar-brand > img {
+  width: 80px;
+}
+
+.d-flex {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: white;
+}

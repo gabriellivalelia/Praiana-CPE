@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-import App from './App';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Perfil from './pages/Perfil';
