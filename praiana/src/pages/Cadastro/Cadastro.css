@@ -1,17 +1,42 @@
-.container 
-{
-      display: flex; 
-      flex-direction: row;
-      max-width: 2386px;
-      justify-content: space-around;
+.Cadastro {
+  background-color: #ffadc2;
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  max-height: 500px;
+  flex-grow: 1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: montserrat;
 }
 
-.botao
-{
-    display: flex;
-    justify-items: end;
+.base {
+  margin-top: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.navbar-brand > img {
-    width: 80px;
+.titulo {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: montserrat;
+  font-size: larger;
 }
+
+.forms {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font:white;
+}
+

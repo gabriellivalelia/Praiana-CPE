@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  background-color: #fde49c;
+}
+
+.Logo > img {
+  display: flex;
+  margin-left: 40px;
+  max-width: 70px;
+}
+
+.Texto1 {
+   font-size: x-small;
+   display: flex;
+   justify-content: flex-start;
+   max-width: 900px;
+}
+
+.texto2{
+  font-size: smaller;
+  font-weight: 400;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: flex-end;
+  margin-left: 5px;
+
+}
+
+.redes{
+  width: 1300px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.apps {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
