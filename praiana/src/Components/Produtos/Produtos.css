@@ -1,0 +1,172 @@
+.hall{
+
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 30px;
+    align-items: center;
+    margin-left: 90px;
+   
+    
+}
+
+.Produto1{
+
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 1;
+    max-height: 252px;
+}
+
+.Produto2{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 2;
+    max-height: 252px;
+}
+
+.Produto3{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 3;
+    max-height: 252px;
+}
+
+.Produto4{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 4;
+    max-height: 252px;
+}
+
+.Produto5{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 5;
+    max-height: 252px;
+}
+
+.Produto6{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 1;
+    max-height: 252px;
+}
+
+.Produto7{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 2;
+    max-height: 252px;
+}
+
+.Produto8{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 3;
+    max-height: 252px;
+}
+
+.Produto9{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    grid-column: 4;
+    max-height: 252px;
+}
+
+.Produto10{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    max-height: 252px;
+    border-radius: 10px;
+    grid-column: 5;
+}
+
+.imagem{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 140px;
+    height: 184px;
+
+}
+
+.botaofavoritar{
+
+    position: fixed;
+    right: 5px;
+    
+
+}
+
+.nomedoproduto{
+
+    font-size: x-small;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #64c9cf;
+}
+
+.precodoproduto{
+
+    font-size: x-small;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #64c9cf;
+}
+
+.parte2{
+    display: flex;
+    flex-direction: row;
+}
+

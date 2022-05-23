@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import "./Login.css";
 import Header from "../../Components/Header/header";
+import { useHistory } from "react-router-dom";
 import Footer from "../../Components/footer/footer";
 
 function Login() {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
+  const history = useHistory();
 
   function confirma() {
     if (password === "1234") {
       alert("Bem vindo(a), " + "! Aproveite nosso site.");
-      window.location("Perfil");
+        history.push("/Perfil");;
     } else {
       alert("Senha Incorreta");
     }
@@ -49,7 +51,7 @@ function Login() {
               type="submit"
               style={{ backgroundColor: "orange" }}
               className="btn btn-outline-light"
-              onClick={confirma}
+             onClick={confirma}
             >Entrar
             </button>
           </div>
