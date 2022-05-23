@@ -10,9 +10,16 @@
     border-radius: 15px;
     margin: 3em 10em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    height: 320px;
+    height: 200px;
+    font-size: small;
+    
         
-  
+  }
+
+  .titulo{
+
+    font-size: medium;
+    font-weight: 500;
   }

@@ -7,11 +7,11 @@
   flex-grow: 1;
   border-radius: 10px;
   margin-bottom: 10px;
-  font-family: montserrat;
+  /* font-family: montserrat; */
 }
 
 .base {
-  margin-top: 30px;
+  margin-top: 0px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: montserrat;
+  /* font-family: montserrat; */
   font-size: larger;
 }
 

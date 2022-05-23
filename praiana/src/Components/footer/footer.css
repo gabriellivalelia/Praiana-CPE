@@ -1,6 +1,11 @@
 .footer {
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
   display: flex;
   background-color: #fde49c;
+  flex-grow: 1;
 }
 
 .Logo > img {
