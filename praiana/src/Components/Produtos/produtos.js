@@ -1,162 +1,144 @@
 import React from "react";
 import "./Produtos.css";
+import BotaoFavoritar from "../botaoFavoritar/botaoFavoritar";
 
 function Produtos() {
   return (
     <div className="hall">
-      <div className="Produto1">
+      <div className="Produto">
         <img className="imagem" src="./imagens/biquine1.png" alt="Biquini" />
+        <BotaoFavoritar />
         <div>
-          <p className="nomedoproduto">
-            Biquini Forrado asa delta
-          </p>
+          <p className="nomedoproduto">Biquini Forrado asa delta</p>
           <div className="parte2">
             <p className="precodoproduto">R$109,50</p>
-           {/*  <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto2">
+      <div className="Produto">
         <img className="imagem" src="./imagens/chapeu.png" alt="Chapeu" />
+        <BotaoFavoritar />
+
         <div>
-          <p className="nomedoproduto">
-            Chapéu Floppy 
-          </p>
+          <p className="nomedoproduto">Chapéu Floppy</p>
           <div className="parte2">
             <p className="precodoproduto">R$58,00</p>
-            {/* <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto3">
+      <div className="Produto">
         <img
           className="imagem"
           src="./imagens/biquiniInfantil.png"
           alt="biquini iinfaltil"
         />
+        <BotaoFavoritar />
+
         <div>
           <p className="nomedoproduto">Biquini infantil</p>
           <div className="parte2">
             <p className="precodoproduto">R$69,50</p>
-           {/*  <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto4">
+      <div className="Produto">
         <img
           className="imagem"
           src="./imagens/ocullosDeSol.png"
           alt="Oculos de sol"
         />
+        <BotaoFavoritar />
+
         <div>
           <p className="nomedoproduto">Óculos de sol Adulto</p>
           <div className="parte2">
             <p className="precodoproduto">R$99,00</p>
-            {/* <a href="#" className="botaofavoritar" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto5">
+      <div className="Produto">
         <img
           className="imagem"
           src="./imagens/roupaDeMergulho.png"
           alt="Roupa de mergulho"
         />
+        <BotaoFavoritar />
+
         <div>
           <p className="nomedoproduto">
-            Giantree Roupa de mergulho/térmica/adulto
+          Roupa de mergulho /térmica 
           </p>
           <div className="parte2">
             <p className="precodoproduto">R$327,10</p>
-            {/* <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto6">
+      <div className="Produto">
         <img
           className="imagem"
           src="./imagens/kitGuardaSolECaddeiras.png"
           alt="Kit guarda sol e cadeiras"
         />
+        <BotaoFavoritar />
+
         <div>
           <p className="nomedoproduto">
-            Cadeira de Praia em Alumínio + Guarda-Sol Aluminio
+            Cadeira de Praia + Guarda-Sol
           </p>
           <div className="parte2">
             <p className="precodoproduto">R$309,50</p>
-           {/*  <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto7">
+      <div className="Produto">
         <img className="imagem" src="./imagens/boiasVariados.png" alt="boias" />
+        <BotaoFavoritar />
+
         <div>
-          <p className="nomedoproduto">
-            Boia Inflável Adulto
-          </p>
+          <p className="nomedoproduto">Boia Inflável Adulto</p>
           <div className="parte2">
             <p className="precodoproduto">R$84,99</p>
-            {/* <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto8">
+      <div className="Produto">
         <img className="imagem" src="./imagens/bone.png" alt="bone" />
+        <BotaoFavoritar />
+
         <div>
-          <p className="nomedoproduto">
-            Boné cour preto 
-          </p>
+          <p className="nomedoproduto">Boné cour preto</p>
           <div className="parte2">
             <p className="precodoproduto">R$69,50</p>
-            {/* <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto9">
+      <div className="Produto">
         <img
           className="imagem"
           src="./imagens/KitBrinquedosDePraia.png"
           alt="brinquedos"
         />
+        <BotaoFavoritar />
+
         <div>
-          <p className="nomedoproduto">
-            Kit verão Diversão na Areia
-          </p>
+          <p className="nomedoproduto">Kit verão Diversão na Areia</p>
           <div className="parte2">
             <p className="precodoproduto">R$59,50</p>
-            {/* <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>
-      <div className="Produto10">
-        <img className="imagem" src="./imagens/saidadepraia.png" alt="saida de praia" />
+      <div className="Produto">
+        <img
+          className="imagem"
+          src="./imagens/saidadepraia.png"
+          alt="saida de praia"
+        />
+        <BotaoFavoritar />
+
         <div>
-          <p className="nomedoproduto">
-            Saída de praia glamour
-          </p>
+          <p className="nomedoproduto">Saída de praia glamour</p>
           <div className="parte2">
             <p className="precodoproduto">R$109,50</p>
-           {/*  <a href="#" class="btn btn-outline-info">
-              sz
-            </a> */}
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Perfil from './pages/Perfil';
@@ -12,11 +12,12 @@ function Rotas ()
    return( 
    <BrowserRouter>
     <Switch>
-       <Route path="/Login" component={Login}/>
-       <Route path="/Cadastro" component={Cadastro}/>
-       <Route path="/Home" component={Home}/>
-       <Route path="/Vitrine" component={Vitrine}/>
-       <Route path="/Perfil" component={Perfil}/>
+       <Route exact path="/Login" component={Login}/>
+       <Route exact path="/Cadastro" component={Cadastro}/>
+       <Route exact path="/Home" component={Home}/>
+       <Route exact path="/Vitrine" component={Vitrine}/>
+       <Route exact path="/Perfil" component={Perfil}/>
+       <Route component = {()=><Redirect to = "/Home" />}/>
     </Switch>
  </BrowserRouter>)
 

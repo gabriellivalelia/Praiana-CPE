@@ -1,0 +1,22 @@
+.Botao{
+
+   background-color: #FDE49C;
+   border:none;
+   border-radius: 30px;
+   width: 35px;
+   height: 35px;
+   position: relative;
+   left: 115px;
+   top: 18px;
+   
+  
+   
+
+}
+
+.botaoContent{
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+
+}
