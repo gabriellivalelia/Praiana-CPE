@@ -1,0 +1,23 @@
+
+.Produto {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 160px;
+    border-radius: 10px;
+    max-height: 252px;
+    margin: 0 50px;
+  }
+
+.Base{
+    background-color: none;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:1300px;
+    position: fixed;
+    left: 200px;
+    row-gap: 15px;
+    
+    
+}

@@ -10,7 +10,6 @@ function Perfil() {
       {" "}
       <Header />
       <Minhaconta/>
-      <DetalhesDaConta />
       <Footer/>
     </div>
   );

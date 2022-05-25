@@ -17,7 +17,7 @@ function Rotas ()
        <Route exact path="/Home" component={Home}/>
        <Route exact path="/Vitrine" component={Vitrine}/>
        <Route exact path="/Perfil" component={Perfil}/>
-       <Route component = {()=><Redirect to = "/Home" />}/>
+       <Route component = {()=><Redirect to = "/Login" />}/>
     </Switch>
  </BrowserRouter>)
 
